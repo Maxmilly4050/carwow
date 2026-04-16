@@ -7,7 +7,7 @@
     <title>CarWow</title>
 </head>
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-2 px-4 mb-2 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-2 px-4 mb-2 border-bottom position-sticky top-0 bg-white" style="z-index: 1000;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
             {% load static %}
             <img src="{% static 'carwow-logo.png' %}" width="160" height="32" alt="CarWow Logo" class="me-2">
@@ -34,7 +34,7 @@
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="width: 90%; max-width: 1400px;">
             <div class="col-md-4 d-flex align-items-center">
                 <a
-                href="/")       
+                href="/"   
                 class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
                 aria-label="Bootstrap"
                 >
