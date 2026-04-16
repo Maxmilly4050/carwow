@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>CarWow</title>
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-2 px-4 mb-2 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+            {% load static %}
+            <img src="{% static 'carwow-logo.png' %}" width="160" height="32" alt="CarWow Logo" class="me-2">
+       </a> 
+            <ul class="nav nav-pills"> 
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">All BlogPosts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+        </header>
+
+
+    <main class="container py-4">
+        {% block content %}{% endblock %}
+    </main>
+        
+    <div style="position: bottom: 0; left: 0; right: 0; display: flex; justify-content: center;">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="width: 90%; max-width: 1400px;">
+            <div class="col-md-4 d-flex align-items-center">
+                <a
+                href="/")       
+                class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+                aria-label="Bootstrap"
+                >
+                <svg class="bi" width="30" height="24" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2026 CarWow</span>
+        </div>
+        
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://www.instagram.com/carwow/" aria-label="Instagram">
+                    {% load static %}
+                    <img src="{% static 'blog/images/instagram.png' %}" width="24" height="24" alt="Instagram">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary" href="https://www.facebook.com/carwow/" aria-label="Facebook">
+                    {% load static %}
+                    <img src="{% static 'blog/images/facebook.png' %}" width="24" height="24" alt="Facebook">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
