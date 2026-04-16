@@ -8,19 +8,19 @@
 </head>
 <body>
     <header class="d-flex flex-wrap justify-content-center py-2 px-4 mb-2 border-bottom position-sticky top-0 bg-white" style="z-index: 1000;">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+        <a href="{% url 'home' %}" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
             {% load static %}
             <img src="{% static 'carwow-logo.png' %}" width="160" height="32" alt="CarWow Logo" class="me-2">
        </a> 
             <ul class="nav nav-pills"> 
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    <a href="{% url 'home' %}" class="nav-link active" aria-current="page">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">All BlogPosts</a>
+                    <a href="{% url 'posts' %}" class="nav-link">All BlogPosts</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="{% url 'about' %}" class="nav-link">About</a>
                 </li>
             </ul>
         </header>

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>All Posts</h1>
+    <div class="row">
+        {% for post in blog_posts %}
+            <div class="col-12 col-md-6 mb-4 d-flex">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative w-100">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary-emphasis">{{ post.category }}</strong>
+                        <h3 class="mb-0">{{ post.title }}</h3>
+                        <div class="mb-1 text-body-secondary">{{ post.published_at }}</div>
+                        <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                        <a href="{% url 'post' post.slug %}" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <svg aria-label="Thumbnail" class="bd-placeholder-img" height="250" preserveAspectRatio="xMidYMid slice" role="img" width="200" xmlns="http://www.w3.org/2000/svg">
+                            <title>Placeholder</title>
+                            <defs>
+                                <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8e9eab;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#4b5363;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#gradient4)"></rect>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
