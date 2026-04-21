@@ -1,15 +1,19 @@
 from django.shortcuts import render
 from .data.blog_posts import BLOG_POSTS
+from .models import Post
 
 def home(request):
-    return render(request, "blogs/home.html", {"blog_posts": BLOG_POSTS})
+    blog_posts = Post.objects.all()
+    return render(request, "blogs/home.html", {"blog_posts": blog_posts})
 
 def all_posts(request):
-    return render(request, "blogs/all_posts.html", {"blog_posts": BLOG_POSTS})
+    blog_posts = Post.objects.all()
+    return render(request, "blogs/all_posts.html", {"blog_posts": blog_posts})
 
 def post(request, slug):
-    blog_post = next((post for post in BLOG_POSTS if post["slug"] == slug), None)
-    if blog_post is None:
+    try:
+        blog_post = Post.objects.get(slug=slug)
+    except Post.DoesNotExist:
         return render(request, "blogs/post_not_found.html", status=404)
     return render(request, "blogs/post.html", {"post": blog_post})
 
