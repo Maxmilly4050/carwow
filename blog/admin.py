@@ -1,5 +1,5 @@
 from django.contrib import admin
-from blog.models import Author, Category, Post
+from blog.models import Author, Category, Comment, Post
 
 # Register your models here.
 class PostAdmin(admin.ModelAdmin):
@@ -13,6 +13,10 @@ class AuthorAdmin(admin.ModelAdmin):
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ("Category",)
 
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ("name", "email", "post", "created_at")
+    list_filter = ("created_at",)
+
 
 
 admin.site.site_header = "Carwow Blog Admin"
@@ -21,3 +25,4 @@ admin.site.site_title = "Carwow Blog Admin Portal"
 admin.site.register(Post, PostAdmin)
 admin.site.register(Author, AuthorAdmin)
 admin.site.register(Category, CategoryAdmin)
+admin.site.register(Comment, CommentAdmin)

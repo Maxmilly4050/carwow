@@ -1,0 +1,45 @@
+
+
+<section style="max-width: 680px; margin: 2rem 0; font-family: sans-serif;">
+  {% if comments %}
+    {% for comment in comments %}
+      <div style="padding: 0.75rem 0; border-bottom: 1px solid #f0f0f0;">
+        <div style="display: flex; gap: 8px; align-items: baseline;">
+          <span style="font-size: 0.85rem; font-weight: 600;">{{ comment.name }}</span>
+          <span style="font-size: 0.75rem; color: #aaa;">{{ comment.created_at|date:"M d, Y" }}</span>
+        </div>
+        <p style="font-size: 0.875rem; color: #444; margin: 4px 0 0; line-height: 1.5;">{{ comment.comment }}</p>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p style="font-size: 0.85rem; color: #aaa;">No comments yet.</p>
+  {% endif %}
+
+  {# ── Comment form ── #}
+ <form method="post" action="{% url 'comment' slug=post.slug %}" style="margin-top: 1.5rem;">
+  {% csrf_token %}
+
+  <input type="text" name="name" placeholder="Name"
+         style="display: block; width: 100%; box-sizing: border-box; padding: 8px 0;
+                border: none; border-bottom: 1px solid #ddd; outline: none;
+                font-size: 0.875rem; margin-bottom: 1rem; font-family: inherit;">
+
+  <input type="email" name="email" placeholder="Email"
+         style="display: block; width: 100%; box-sizing: border-box; padding: 8px 0;
+                border: none; border-bottom: 1px solid #ddd; outline: none;
+                font-size: 0.875rem; margin-bottom: 1rem; font-family: inherit;">
+
+  <textarea name="comment" placeholder="Write a comment..." rows="3"
+            style="display: block; width: 100%; box-sizing: border-box; padding: 8px 0;
+                   border: none; border-bottom: 1px solid #ddd; outline: none;
+                   font-size: 0.875rem; margin-bottom: 1rem; font-family: inherit;
+                   resize: none;"></textarea>
+
+  <button type="submit"
+          style="font-size: 0.8rem; padding: 6px 14px; border: 1px solid #ccc;
+                 border-radius: 4px; background: none; cursor: pointer;">
+    Post
+  </button>
+</form>
+
+</section>
