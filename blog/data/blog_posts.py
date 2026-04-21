@@ -6,10 +6,9 @@ BLOG_POSTS = [
         "excerpt": "How Audi hid a 621-horsepower monster inside a practical station wagon.",
         "content": "The Audi RS6 Avant is one of the automotive world's best-kept secrets. Beneath its sensible estate car body hides a 4.0-litre twin-turbocharged V8 engine producing 621 hp, capable of launching it from 0–60 mph in just 3.5 seconds. Audi engineers purposefully tuned its exhaust to sound understated at low revs, making it the ultimate sleeper. The car uses a 48V mild-hybrid system that shuts off four cylinders during cruising, giving it surprising fuel efficiency for its power output. On the Autobahn, it will pull all the way to its electronically limited 155 mph top speed — with your dog comfortably asleep in the boot.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "March 8, 2026", 
         "category": "Performance",
         "is_featured": True,
-        "image": "blog/images/post-1.jpg"
     },
     {
         "id": 2,
@@ -18,10 +17,9 @@ BLOG_POSTS = [
         "excerpt": "The iconic gullwing doors weren't a styling choice — they were an engineering necessity.",
         "content": "The 1954 Mercedes-Benz 300SL is one of the most recognisable cars ever built, famous for its dramatic upward-opening gullwing doors. Most people assume they exist purely for theatrical effect, but the real reason is structural. The 300SL used a revolutionary tubular space-frame chassis — a complex lattice of steel tubes that gave the car extraordinary rigidity and light weight. That frame, however, ran so high along the car's sides that conventional door sills were impossible. The only way to enter was over those tall sill tubes, and opening the doors upward rather than outward gave just enough clearance. A beautiful design necessity. The 300SL also introduced fuel injection to production cars, making it one of the most technically advanced vehicles of its era.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "October 12, 2026",
         "category": "History",
         "is_featured": False,
-        "image": "blog/images/post-2.jpg"
     },
     {
         "id": 3,
@@ -30,10 +28,9 @@ BLOG_POSTS = [
         "excerpt": "One factory employee secretly built an M3 wagon — and BMW kept it hidden for decades.",
         "content": "In 1987, a BMW engineer named Paul Rosche allegedly helped create a one-off E30 M3 Touring — a station wagon version that BMW never put into production. For years it remained a factory secret, stored quietly in BMW's own collection. BMW's official stance was that an M3 wagon would compromise the car's performance image. Yet decades later, in 2022, BMW finally did the unthinkable and launched the G81 M3 Touring — the first-ever production M3 estate. It comes with a 503 hp straight-six engine, all-wheel drive, and a 0–62 mph time of 3.6 seconds. The car that was once a secret prototype is now one of BMW's most coveted models, proving that sometimes the engineers know best.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "November 17, 2026",
         "category": "History",
         "is_featured": False,
-        "image": "blog/images/post-3.jpg"
     },
     {
         "id": 4,
@@ -42,10 +39,9 @@ BLOG_POSTS = [
         "excerpt": "Every engineer said it was wrong. Porsche did it anyway — and it became legendary.",
         "content": "When the Porsche 911 debuted in 1963, conventional engineering wisdom said putting the engine behind the rear axle was a terrible idea. It made the car tail-happy, prone to oversteer, and notoriously difficult to catch when the rear stepped out. Yet Ferry Porsche insisted on keeping the engine there, partly to honour the rear-engined legacy of the 356. Over six decades of evolution, Porsche's engineers turned that liability into an asset. The rear weight bias gives the 911 exceptional traction when accelerating out of corners and makes it the fastest-lapping production car at many circuits. The handling challenge became the 911's character. Today's 992-generation 911 Carrera S does 0–62 mph in 3.5 seconds, yet feels perfectly balanced — a masterclass in working with physics rather than against it.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "May 12, 2026",
         "category": "Engineering",
         "is_featured": True,
-        "image": "blog/images/post-4.jpg"
     },
     {
         "id": 5,
@@ -54,10 +50,9 @@ BLOG_POSTS = [
         "excerpt": "The world's most famous movie car has a real-world story just as remarkable as the fiction.",
         "content": "The Aston Martin DB5 became immortal in Goldfinger (1964), but its real story is just as compelling. The DB5 was powered by a 4.0-litre straight-six engine derived from a design originally sketched by W.O. Bentley himself — yes, that Bentley. Aston Martin acquired the engine design after Bentley joined the company briefly. Only 1,059 DB5s were ever built between 1963 and 1965, making each one extraordinarily rare. The Bond connection was no accident: the producers chose it because it was genuinely considered the most beautiful car in the world at the time. In 2021, Aston Martin began building 25 new DB5 Goldfinger Continuation cars — complete with working gadgets like revolving number plates and a passenger ejector seat mechanism — each costing around £3.3 million.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "June 4, 2026",
         "category": "Culture",
         "is_featured": False,
-        "image": "blog/images/post-5.jpg"
     },
     {
         "id": 6,
@@ -66,10 +61,9 @@ BLOG_POSTS = [
         "excerpt": "Mazda's rotary engine is one of the most unusual powerplants ever put in a production car.",
         "content": "The Mazda RX-7, produced from 1978 to 2002, used a Wankel rotary engine — a design so different from conventional engines that it has no pistons, no valves, and no camshafts. Instead, a triangular rotor spins eccentrically inside an oval housing, completing the four strokes of combustion in a single revolution. The result is an engine that revs freely to 8,000 rpm, weighs roughly half as much as a comparable piston engine, and sits so low in the chassis it barely affects the car's centre of gravity. The FD RX-7 (1992–2002) used a twin-turbocharged version producing 237 hp from just 1.3 litres of displacement. Its 50:50 weight distribution made it one of the finest-handling sports cars ever built — a triumph of unconventional thinking.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "April 22, 2026",
         "category": "Engineering",
         "is_featured": True,
-        "image": "blog/images/post-6.jpg"
     },
     {
         "id": 7,
@@ -78,10 +72,9 @@ BLOG_POSTS = [
         "excerpt": "Maurice Wilks sketched the world's most capable off-roader in the sand with a stick.",
         "content": "The Land Rover Defender's origin story is almost too good to be true. In 1947, Maurice Wilks — Rover's chief engineer — was on holiday on the Llanddona beach on Anglesey, Wales, when he sketched the basic concept in the sand. Wilks owned a wartime Jeep and needed something equally rugged for his farm but more practical to build with postwar steel shortages. The original 1948 Land Rover used an aluminium body (steel was rationed) and a centre-mounted steering wheel so the same vehicle could be sold in both left- and right-hand drive markets. Its chassis was adapted from a Rover car platform. What began as a stopgap utility vehicle to fund Rover's car business became the company's most iconic product — the Defender ran almost unchanged from 1948 to 2016.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "November 2, 2026",
         "category": "History",
         "is_featured": False,
-        "image": "blog/images/post-7.jpg"
     },
     {
         "id": 8,
@@ -90,10 +83,9 @@ BLOG_POSTS = [
         "excerpt": "It uses a real F1 hybrid powertrain — and took five years longer than planned to tame.",
         "content": "The Mercedes-AMG One hypercar uses a hybrid powertrain lifted almost directly from Lewis Hamilton's 2015 Formula 1 championship car. The 1.6-litre V6 turbocharged engine revs to 11,000 rpm and is paired with four electric motors — one on the crankshaft, one on the turbocharger, and one on each front axle. Combined output exceeds 1,000 hp. The engineering challenge was immense: F1 power units are designed to last just a few thousand kilometres before rebuilding, but road car regulations demanded 50,000-kilometre longevity. Mercedes spent five years past its original deadline solving this. The result hits 0–124 mph in 7.0 seconds and laps the Nürburgring faster than almost any production car ever built. Only 275 were made, all pre-sold before the car was even finalised.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "July 11, 2026",
         "category": "Performance",
         "is_featured": True,
-        "image": "blog/images/post-8.jpg"
     },
     {
         "id": 9,
@@ -102,10 +94,9 @@ BLOG_POSTS = [
         "excerpt": "The BMW M1's development story involves financial chaos, an Italian sports car maker, and a racing ban.",
         "content": "The BMW M1, launched in 1978, is the only mid-engine production car BMW has ever built — and it nearly didn't exist at all. BMW originally contracted Lamborghini to design and manufacture the chassis in Italy. But Lamborghini ran into serious financial difficulties mid-project and had to abandon it. BMW scrambled to finish the car themselves, eventually hand-assembling it in Germany in tiny numbers (only 453 were ever built). The M1 was developed specifically to compete in Group 5 racing, but by the time it was ready, the regulations had changed and it no longer qualified. To give it somewhere to race, BMW invented the Procar Championship — a one-make series where the M1 became one of the most dramatic support races in Formula 1 history.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "January 15, 2026",
         "category": "History",
         "is_featured": False,
-        "image": "blog/images/post-9.jpg"
     },
     {
         "id": 10,
@@ -114,10 +105,9 @@ BLOG_POSTS = [
         "excerpt": "In 2013 it set a Nürburgring record that shocked the entire supercar industry.",
         "content": "When Porsche revealed the 918 Spyder in 2013, sceptics questioned whether a plug-in hybrid could ever match the purity of a naturally aspirated supercar. Then it lapped the Nürburgring Nordschleife in 6 minutes 57 seconds — the first production car to break the 7-minute barrier. Its 4.6-litre V8 engine, revving to 9,150 rpm, combines with two electric motors to produce 887 hp and 944 lb-ft of torque. The electric motors power the front axle, giving the car on-demand all-wheel drive and torque vectoring. In EV-only mode it can travel up to 12 miles silently. The 918 was the halo car that proved electric assistance enhances rather than diminishes driving excitement — a philosophy Porsche has carried into every electrified model since.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "February 12, 2026",
         "category": "Performance",
         "is_featured": False,
-        "image": "blog/images/post-10.jpg"
     },
     {
         "id": 11,
@@ -126,10 +116,9 @@ BLOG_POSTS = [
         "excerpt": "Adrian Newey's road car is so extreme it could theoretically drive upside down at speed.",
         "content": "The Aston Martin Valkyrie was co-designed by Red Bull Racing's Adrian Newey — the most successful aerodynamicist in Formula 1 history — and it shows. At high speed, the Valkyrie generates more than 1,814 kg of downforce, more than the car's own 1,030 kg kerb weight. That means aerodynamic forces are pushing it harder into the road than gravity is. The naturally aspirated 6.5-litre V12, built by Cosworth, revs to a screaming 11,100 rpm and produces 1,000 hp on its own, with a hybrid system adding a further 160 hp. The car's entire underfloor acts as a venturi tunnel — air accelerates beneath the car and creates a low-pressure zone that physically sucks the car to the road. Only 150 were ever made, each sold for approximately £2.5 million.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "September 19, 2026",
         "category": "Engineering",
         "is_featured": True,
-        "image": "blog/images/post-11.jpg"
     },
     {
         "id": 12,
@@ -138,10 +127,9 @@ BLOG_POSTS = [
         "excerpt": "By 1989, the affordable two-seat roadster was nearly extinct. Then Mazda brought it back.",
         "content": "The Mazda MX-5 Miata, launched in 1989, is the best-selling two-seat sports car in history — over 1.3 million units sold across four generations. But its significance goes far beyond sales figures. In the 1980s, the lightweight British roadster tradition exemplified by the Lotus Elan and MGB had died out, killed by safety regulations and rising costs. A group of Mazda engineers in the USA — inspired by those classic British cars — secretly developed the MX-5 concept and spent years convincing the company to build it. The result was a car so pure and affordable that it revived the entire segment. Competitors like the Toyota MR2 and BMW Z3 followed in its wake. The MX-5 is also the most raced car in motorsport history, with more cars competing worldwide than any other single model.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "November 5, 2026",
         "category": "Culture",
         "is_featured": False,
-        "image": "blog/images/post-12.jpg"
     },
     {
         "id": 13,
@@ -150,10 +138,9 @@ BLOG_POSTS = [
         "excerpt": "Modern Range Rovers can cross water up to 900 mm deep, and there's fascinating engineering behind that.",
         "content": "The Land Rover Range Rover's wading capability is one of its most extraordinary engineering feats. Modern Range Rover models can ford water up to 900 mm (nearly 3 feet) deep — roughly chest-height on most people — while maintaining full traction and electrical function. Achieving this requires waterproofed electrical connectors throughout the car, a sealed air intake raised high in the engine bay, and a 'Wade' driving mode that holds brake pads lightly against discs to prevent water ingress. The car also has a Terrain Response system with a dedicated water setting that adjusts throttle response, gearbox behaviour, and diff lock settings for aqueous crossings. Before attempting a ford, the system activates a side-mirror-mounted depth sensor to check water level. It is, in essence, a luxury living room that happens to be amphibious.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "May 12, 2026",
         "category": "Engineering",
         "is_featured": False,
-        "image": "blog/images/post-13.jpg"
     },
     {
         "id": 14,
@@ -162,10 +149,9 @@ BLOG_POSTS = [
         "excerpt": "Before 1980, all-wheel drive in a competition car was considered impossible. Audi proved otherwise.",
         "content": "When the Audi Quattro debuted at the 1980 Monte Carlo Rally, it was so dominant that rival teams immediately lodged protests — they assumed all-wheel drive must be illegal. It wasn't. Engineer Jörg Bensinger had noticed that a military vehicle built on VW mechanicals used a permanent 4WD system, and spent years convincing Audi to apply the concept to a performance car. The Quattro was 25% heavier than its rear-drive rivals but so superior in traction that it won the World Rally Championship manufacturers' title in 1982 and 1984. The technology trickled down into every Audi road car and influenced the entire automotive industry's approach to all-wheel drive. Today, Audi sells more AWD cars than almost any other manufacturer — all traceable to that original insight from a military truck.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "December 25, 2026",
         "category": "History",
         "is_featured": False,
-        "image": "blog/images/post-14.jpg"
     },
     {
         "id": 15,
@@ -174,9 +160,8 @@ BLOG_POSTS = [
         "excerpt": "The BMW Hydrogen 7 was a real, road-legal car that burned hydrogen in a conventional engine.",
         "content": "In 2006, BMW produced 100 examples of the Hydrogen 7 — a 7 Series saloon powered by a 6.0-litre V12 engine modified to burn liquid hydrogen instead of petrol, though it could switch between the two fuels at the touch of a button. The car produced 260 hp, reached 143 mph, and emitted only water vapour when running on hydrogen. BMW loaned the 100 cars to celebrities, politicians, and journalists as part of a real-world trial. The project demonstrated hydrogen combustion as a credible technology but revealed a critical problem: the cryogenic liquid hydrogen tank, kept at -253°C, would slowly boil off regardless of whether the car was being driven. Park it for two weeks and the tank would be empty. That inherent inefficiency eventually led BMW to pivot towards hydrogen fuel cells instead — but the Hydrogen 7 remains one of the most audacious production car experiments ever attempted.",
         "author": "CarWow Team",
-        "published_at": "November 12, 2026",
+        "published_at": "November 4, 2026",
         "category": "Innovation",
         "is_featured": True,
-        "image": "blog/images/post-15.jpg"
     },
 ]
