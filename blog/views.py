@@ -4,6 +4,7 @@ from .data.blog_posts import BLOG_POSTS
 from .models import Post
 from .forms import CommentForm
 from django.views import View
+from django.views.generic import TemplateView
 
 class CommentView(View):
     def post(self, request, slug):
@@ -39,5 +40,7 @@ def post(request, slug):
         "form": form,
     })
 
-def about(request):
-    return render(request, "blogs/about.html")
+# def about(request):
+#     return render(request, "blogs/about.html")
+class AboutView(TemplateView):
+    template_name = "blogs/about.html"
