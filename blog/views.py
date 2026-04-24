@@ -1,7 +1,7 @@
 from urllib import request
 from django.shortcuts import redirect, render
 from .data.blog_posts import BLOG_POSTS
-from .models import Post
+from .models import Post, Comment
 from .forms import CommentForm
 from django.views import View
 from django.views.generic import TemplateView
@@ -32,7 +32,7 @@ def post(request, slug):
     except Post.DoesNotExist:
         return render(request, "blogs/post_not_found.html", status=404)
     
-    comments = blog_post.comments.all()
+    comments = Comment.objects.filter(post=blog_post)
     form = CommentForm()
     return render(request, "blogs/post.html", {
         "post": blog_post,
