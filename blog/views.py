@@ -40,7 +40,11 @@ def post(request, slug):
         "form": form,
     })
 
-# def about(request):
-#     return render(request, "blogs/about.html")
+
 class AboutView(TemplateView):
     template_name = "blogs/about.html"
+
+class FavoritePostsView(View):
+    def get(self, request):
+        favorite_posts = Post.objects.filter(is_favorite=True)
+        return render(request, "blogs/favorite_posts.html", {"favorite_posts": favorite_posts})
