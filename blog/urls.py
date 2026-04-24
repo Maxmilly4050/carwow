@@ -1,6 +1,7 @@
 import django.urls
 from . import views
 
+
 urlpatterns = [
     django.urls.path('', views.home, name='home'),
     django.urls.path('post/<slug:slug>/', views.PostView.as_view(), name='post'),
