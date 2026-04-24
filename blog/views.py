@@ -55,9 +55,11 @@ class PostView(View):
             favorite_posts.remove(blog_post.pk)
         else:
             favorite_posts.append(blog_post.pk)
-            request.session["favorite_posts"] = favorite_posts
         
-        return redirect('post', slug=slug)
+        request.session["favorite_posts"] = favorite_posts
+        request.session.modified = True 
+        
+        return redirect("post", slug=slug)
 
 
 class AboutView(TemplateView):
