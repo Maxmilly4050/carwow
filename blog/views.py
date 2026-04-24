@@ -32,6 +32,15 @@ def post(request, slug):
     except Post.DoesNotExist:
         return render(request, "blogs/post_not_found.html", status=404)
     
+    saved_posts = []
+    favorite_post = request.session.get("favorite_post")
+    if favorite_post == None or favorite_post.length == 0:
+        favorite_post = saved_posts
+    else:
+        favorite_post = Post.objects.get(slug=blog_post.slug)
+        saved_posts.append(int(favorite_post.pk))
+        favorite_post = saved_posts
+    
     comments = Comment.objects.filter(post=blog_post)
     form = CommentForm()
     return render(request, "blogs/post.html", {
