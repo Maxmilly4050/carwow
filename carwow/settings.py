@@ -27,12 +27,9 @@ if os.path.exists('.env'):
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DEBUG', True) == 'True'
+DEBUG = os.getenv('DEBUG', True)
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(',')
-
-CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', '').split(',')
-
 
 # Application definition
 
@@ -123,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / 'carwow' / 'static',
