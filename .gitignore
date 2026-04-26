@@ -28,3 +28,6 @@ Thumbs.db
 # Static files
 staticfiles/
 static_root/
+
+#AWS
+.ebextensions/
